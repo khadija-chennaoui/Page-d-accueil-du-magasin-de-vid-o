@@ -5,14 +5,70 @@
     justify-content: flex-start;
     align-content: center;
     align-items: center;
+   
 }
-img{
-    width: 100px;
+.breadcrumbs ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+
 }
-a{
+.breadcrumbs a{
     text-decoration: none;
     color:black;
+
 }
-a :hover{
+.logo{
+    width: 100px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+a:hover{
     text-decoration:underline;
 }
+ul{
+    padding:0 ;
+}
+
+ul{list-style-type: none;
+display: flex;
+gap: 1rem;
+justify-content: flex-start;
+align-content: center;
+align-items: center;
+}
+.azer{
+    display:flex;
+    gap:1rem;
+
+}
+.Produit{
+    border: solid 1px black;
+    width: 150px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+img{
+    width:100%;
+}
+.para{
+   width:50%; 
+}
+.p1{
+ color: gray;
+}
+.p3{
+    color: green;
+}
+.p2{
+    font: size 19px;
+    font-weight: 600;}
+    .lin{
+    text-decoration:underline ; }
