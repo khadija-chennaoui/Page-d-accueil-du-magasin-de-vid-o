@@ -1,12 +1,13 @@
-.nav {
+.nav div {
+    font-size: larger;
     list-style-type: none;
     display: flex;
     gap: 1rem;
     justify-content: flex-start;
     align-content: center;
     align-items: center;
-   
 }
+
 .breadcrumbs ul {
     list-style-type: none;
     display: flex;
@@ -14,46 +15,49 @@
     justify-content: flex-start;
     align-content: center;
     align-items: center;
-
 }
+
 .breadcrumbs a{
     text-decoration: none;
     color:black;
 
 }
-.logo{
-    width: 100px;
+
+
+.logo-web{
+    text-align: center;
 }
+
+.logo{
+    width: 150px;
+}
+
 .nav a{
     text-decoration: none;
     color:black;
     font-weight: 600;
 }
+
 a:hover{
     text-decoration:underline;
 }
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
 ul{
     padding:0 ;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: 40px;
 }
 
-ul{list-style-type: none;
-display: flex;
-gap: 1rem;
-justify-content: flex-start;
-align-content: center;
-align-items: center;
-}
-.azer{
-    display:flex;
-    gap:1rem;
-
-}
-.Produit{
-    border: solid 1px black;
-    width: 150px;
-    padding: 7px;
-    box-sizing: border-box;
-}
 
 img{
     width:100%;
@@ -70,5 +74,52 @@ img{
 .p2{
     font: size 19px;
     font-weight: 600;}
-    .lin{
-    text-decoration:underline ; }
+
+.lin{
+    text-decoration:underline; 
+}
+
+.azer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Produit{
+    border: solid 2px black;
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        vertical-align: middle;
+        
+    }
+    .nav {
+        text-align: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;    
+    }
+
+    .nav a {
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .para {
+        width: 90%;
+    }
+    
+    }
